@@ -2,7 +2,7 @@
     "builds": [
       {
         "src": "nuxt.config.js",
-        "use": "@nuxtjs/vercel-builder --max_old_space_size=8192 --optimize_for_size",
+        "use": "@nuxtjs/vercel-builder",
         "config": {}
       }
     ]
