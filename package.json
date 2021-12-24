@@ -8,6 +8,7 @@
     "generate": "nuxt generate",
     "lint": "prettier --write '*.{js,vue}'",
     "start": "nuxt start",
+    "now-build": "shopware-pwa plugins --ci && shopware-pwa cms && shopware-pwa languages",
     "test": "jest"
   },
   "dependencies": {
